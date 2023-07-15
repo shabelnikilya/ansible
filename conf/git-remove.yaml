@@ -1,6 +1,6 @@
 - hosts: webservers
   tasks:
-    - name: install git
+    - name: remove git
       ansible.builtin.apt:
         name: git
         state: absent

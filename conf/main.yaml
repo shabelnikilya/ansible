@@ -1,0 +1,9 @@
+- hosts: all
+  tasks:
+    - name: start first main task
+      ansible.builtin.debug:
+        msg: "start"
+- name: import playbook install git
+  ansible.builtin.import_playbook: git-install.yaml
+- name: import playbook remove git
+  ansible.builtin.import_playbook: git-remove.yaml
