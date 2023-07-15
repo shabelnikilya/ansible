@@ -12,3 +12,6 @@ install_git:
 
 remove_git:
 	ansible-playbook git-remove.yaml -i inventory.ini
+
+nginx:
+	ansible-playbook nginx.yaml -i inventory.ini
