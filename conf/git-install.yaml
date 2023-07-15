@@ -1,4 +1,5 @@
 - hosts: webservers
+  gather_facts: no
   tasks:
     - name: install git
       ansible.builtin.apt:
