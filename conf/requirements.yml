@@ -1,0 +1,5 @@
+roles:
+  - name: geerlingguy.git
+  - name: geerlingguy.postgresql
+  - name: geerlingguy.java
+    version: 2.3.1

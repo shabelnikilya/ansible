@@ -18,3 +18,6 @@ nginx:
 
 main:
 	ansible-playbook main.yaml -i inventory.ini
+
+role:
+	ansible-playbook roles.yaml -i inventory.ini
